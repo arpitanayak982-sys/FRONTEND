@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Novell Services Login</title>
+</head>
+
+<body>
+
+<center>
+    <h1>Novell Services Login</h1>
+
+    <form>
+
+        <table cellpadding="10">
+
+            <tr>
+                <td>Username:</td>
+                <td>
+                    <input type="text" size="40">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Password:</td>
+                <td>
+                    <input type="password" size="40">
+                </td>
+            </tr>
+
+            <tr>
+                <td>City of Employment:</td>
+                <td>
+                    <input type="text" size="40">
+                </td>
+            </tr>
+
+            <tr>
+                <td>Web server:</td>
+                <td>
+                    <select>
+                        <option>-- Choose a server --</option>
+                        <option>Apache</option>
+                        <option>Nginx</option>
+                        <option>IIS</option>
+                        <option>Tomcat</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    Please specify<br>
+                    your role:
+                </td>
+
+                <td>
+                    <input type="radio" name="role"> Admin <br>
+
+                    <input type="radio" name="role"> Engineer <br>
+
+                    <input type="radio" name="role"> Manager <br>
+
+                    <input type="radio" name="role"> Guest
+                </td>
+            </tr>
+
+            <tr>
+                <td valign="top">
+                    Single Sign-on<br>
+                    to the following:
+                </td>
+
+                <td>
+                    <input type="checkbox"> Mail <br>
+
+                    <input type="checkbox"> Payroll <br>
+
+                    <input type="checkbox"> Self-service
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+
+                <td>
+                    <input type="submit" value="Login">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</center>
+
+</body>
+</html>
