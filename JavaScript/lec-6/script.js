@@ -1,21 +1,27 @@
+ //=====code-1====== takes a func as an argument
  function fun(f1) {
   console.log("value of f1", f1)
 }
 
- fun(10)
-// // // fun(true)
-fun("JT")
+ fun(10)//value of f1 10
+fun(true)//value of f1 true
+fun("JT")//value of f1 JT  //normal func
 
 function hello() {
  console.log("Hello Everyone!!!")
-   return 100
+   return 100//if there is no return value it returns"undefined"
  }
+//hello() func execute hoga
+fun(hello())//Hello Everyone!!! //normal func
+            // value of f1 100(return value)
+ // //HOF
+fun(hello)//prints definition  for hello(Takes it as an argument) function //Function reference milega, execute nahi hoga.
+ //here fun is hof ,hello is call back func
 
-fun(hello())
-fun(hello)
 
 
-// // ======================
+
+// // ==========code2============returns a func as an argument
 // function f3() {
 //   console.log("This is f3 function")
 // }

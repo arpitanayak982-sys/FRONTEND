@@ -1,4 +1,4 @@
-alert("Hello Everyone!")//pop up
+alert("Hello Everyone!")//pop up //hello everyone is an argument
  window.alert("Good morning")//pop up
 
 
@@ -10,13 +10,14 @@ if(name) {
  } else {
  console.log("Re enter user name")//pop up textfield agar name enter ni kiya
    console.log("name is", prompt("Re enter user name"))//console p ayega if enter ya reenter ni kiya to
+   
 }
 
 
  let choice = confirm("Are you enjoying js classes ?")//pop up ayaega ,"ok" ya "cancel" choose kakrna h
  console.log(choice)
 
-
-console.log("Hii")      // normal
+//inspect m dikhta h
+console.log("Hii")      // normal 
 console.warn("Hello")   // yellow
 console.error("Bye")    // red
