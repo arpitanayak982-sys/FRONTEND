@@ -21,27 +21,27 @@ fun(hello)//prints definition  for hello(Takes it as an argument) function //Fun
 
 
 
-// // ==========code2============returns a func as an argument
-// function f3() {
-//   console.log("This is f3 function")
-// }
+// ==========code2============returns a func as an argument
+function f3() {
+  console.log("This is f3 function")
+}
 
-// function f1() {
-//   console.log('This is f1 function')
+function f1() {
+  console.log('This is f1 function')
 
-//   // return 101
-//   // return function f2() {
-//   //   console.log('This is f2 function')
-//   // }
-//   return f3
-// }
+//return 101
+      return function f2() {
+     console.log('This is f2 function')
+       }
+//return f3
+}
 
-// let x = f1()
-// console.log("//////////", x)
-// x()
+let x = f1()
+console.log("//////////", x)
+x()
 
 
-// ============== setTimeout, setInterval =========
+//============== setTimeout, setInterval =========
 // console.log(1)
 // console.log(2)
 // console.log(3)
@@ -66,8 +66,18 @@ fun(hello)//prints definition  for hello(Takes it as an argument) function //Fun
 
 // ==============================
 console.log(1)
-const id = setInterval(function () {
+const id = setTimeout(function () {
   console.log(":::::::::")
 }, 1000)
-clearInterval(id)
+clearTimeout(id)
+console.log(2)
+
+
+//==============
+// ==============================
+console.log(1)
+const pd = setInterval(function () {
+  console.log(":::::::::")
+}, 1000)
+clearInterval(pd)
 console.log(2)
