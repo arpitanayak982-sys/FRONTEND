@@ -12,20 +12,24 @@ let b = 20
 // f1();
 
 // console.log(c)// ReferenceError//Func scoped:var c
-// console.log(d)//ReferenceError//block scoped:let d//func is also a block
+// console.log(d)//ReferenceError//block scoped:(let d)
 
 // // Block Scope
 // {
 //   debugger
 //   var e = 50
 //   let f = 60
+//   const n=20
 
 //   console.log(e)//50
 //   console.log(f)//60
+//   console.log(n)//30
 // }
 
-// console.log(e)//50//blocked scope
-// console.log(f)//ReferenceError//not blocked scope
+// console.log(e)//50// not blocked scope(block k bahar bhi print hota h)
+// console.log(f)//ReferenceError// block scope
+//console.log(n)//ReferenceError// block scope
+
 
 // ---------------- LEXICAL SCOPE
 function fun1() {

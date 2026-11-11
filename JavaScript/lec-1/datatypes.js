@@ -19,8 +19,9 @@ console.log(typeof BigInt(23))
 let a ;
 console.log(a)
 
-console.log(b)
+console.log(b)//hoisting//undefined for var
 var b = 20
 
 let h4 = document.querySelector("h4")
- console.log(h4)//there is no h4 in html file it's linked with ,so it's null.
+ console.log(h4)//there is no <h4> in html file it's linked with ,so it's null.
+ //h4 is   heading 4

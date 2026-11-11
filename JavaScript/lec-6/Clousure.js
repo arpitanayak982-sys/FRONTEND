@@ -3,11 +3,11 @@ function increment() {
   return function plusOne() {
     console.log("Adding one")//adding one
     number++
-    console.log("number value is ", number)//number value is 11,//number value is 12
+    console.log("number value is ", number)
   }
 }
 
 const nestedFun = increment()
 // console.log("//////", nestedFun)
-nestedFun()
-nestedFun()
+nestedFun()//number value is 11(10+1)
+nestedFun()//number value is 12(11+1)

@@ -6,9 +6,9 @@ let z = 10
  console.log(z)
 
 
- console.log(5 == "5")
- console.log(5 == "4")
-console.log(5 == "")
+ console.log(5 == "5")//true//== checks value 
+ console.log(5 == "4")//false
+console.log(5 == "")//false
 // console.log(1 == true)
 // console.log(0 == false)
 
